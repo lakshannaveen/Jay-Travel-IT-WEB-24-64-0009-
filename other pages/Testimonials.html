@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <style>
+.navbar-brand
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: tomato;
+}
+.navbar {
+  width: 100%;
+}
+.custome-home-link
+{
+    color: tomato;
+}
+.navbar-dark
+{
+  background-color: black;
+}
+.navbar-dark .navbar-nav .nav-link.active {
+  color: tomato !important;
+  font-weight: bold;
+}
+
+.testimonial-section 
+ {
+    background-color: #f8f9fa;
+    padding: 60px 
+          
+}
+.testimonial-card {
+   background-color: white;
+    border: 1px solid #ddd;
+   border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+ .testimonial-card img {
+   width: 150px;
+   height: 150px;
+   border-radius: 100%;
+    margin: 20px auto;
+ }
+ .testimonial-card .card-body {
+  font-family: Arial, Helvetica, sans-serif;
+ text-align: center;
+        }
+  .testimonial-card .name {
+            
+   font-size: 18px;
+   font-weight: bold;
+ }
+  .testimonial-card .location {
+     color: #777;
+     font-size: 14px;
+  }
+  .testimonial-card .quote {
+   font-size: 16px;
+    color: #555;
+    margin-top: 15px;
+  }
+.lead
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.display-4
+{
+    color: tomato;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-upper {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(7, 7, 58);
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-upper a {
+  text-decoration: none; 
+  color: white;
+}
+
+.footer-upper a:hover {
+  text-decoration: underline;
+}
+
+.footer-upper ul {
+  padding-left: 0; 
+}
+
+.footer-upper .list-unstyled li {
+  margin-bottom: 10px;
+}
+
+.footer-end {
+  width: 100%;
+  box-sizing: border-box;
+  color: white;
+  background-color: black;
+  padding: 20px 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-end .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer-end p {
+  margin: 0;
+}
+  
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials</title>
+</head>
+<body>
+    
+  <!-- header part-->
+<div class="container-fluid p-0">
+  <header class="row">
+      <div class="col-md-12">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+              <div class="container-fluid">
+                  <a class="navbar-brand" href="#">JAY TOURS</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                      <ul class="navbar-nav mb-2 mb-lg-0">
+                          <li class="nav-item">
+                              <a id="homeLink" class="nav-link " href="index.html">HOME</a>
+                          </li>
+                          <li class="nav-item">
+                              <a id="aboutLink" class="nav-link" href="about.html">ABOUT</a>
+                          </li>
+                          <li class="nav-item">
+                              <a id="servicesLink" class="nav-link" href="services.html">SERVICES</a>
+                          </li>
+                          <li class="nav-item">
+                              <a id="testimonialsLink" class="nav-link" href="Testimonials.html">TESTIMONIALS</a>
+                          </li>
+                          <li class="nav-item">
+                              <a id="portfolioLink" class="nav-link" href="Portfolio.html">PORTFOLIO</a>
+                          </li>
+                          <li class="nav-item">
+                              <a id="contactLink" class="nav-link" href="#footer">CONTACTS</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+      </div>
+  </header>
+</div>
+   <!-- Testimonials Section -->
+   <section class="testimonial-section">
+    <div class="container">
+        <div class="row text-center mb-5">
+            <div class="col-12">
+                <h2 class="display-4">WHAT OUR CLIENTS SAY</h2>
+                <p class="lead text-muted">Real stories from our clients.</p>
+            </div>
+        </div>
+
+        <div class="row">
+           <div class="col-md-4 mb-4">
+                <div class="card testimonial-card">
+                    <img src="images/client/Jane Doe.jpg" class="card-img-top" alt="Client 1">
+                    <div class="card-body">
+                        <p class="name">Jane Doe</p>
+                        <p class="location">New York, USA</p>
+                        <p class="quote">"Jay Tours gave us an amazing experience! The trip was well planned, and the service was excellent. Highly recommend!"</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="card testimonial-card">
+                    <img src="images/client/john smith.jpg" class="card-img-top" alt="Client 2">
+                    <div class="card-body">
+                        <p class="name">John Smith</p>
+                        <p class="location">London, UK</p>
+                        <p class="quote">"I had a fantastic vacation thanks to Jay Tours. Everything was planned perfectly and the team was very professional."</p>
+                    </div>
+                </div>
+            </div>
+
+           
+            <div class="col-md-4 mb-4">
+                <div class="card testimonial-card">
+                    <img src="images/client/Maria Garci.jpg" class="card-img-top" alt="Client 3">
+                    <div class="card-body">
+                        <p class="name">Maria Garcia</p>
+                        <p class="location">Madrid, Spain</p>
+                        <p class="quote">"A wonderful experience from start to finish! Jay Tours took care of everything and made my trip stress-free."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--footer section-->
+<footer class="footer-upper mt-auto py-3" id="footer">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-3">
+              <h5>Help</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#">Help Center</a></li>
+                  <li><a href="#">FAQs</a></li>
+                  <li><a href="#">Terms of Use</a></li>
+              </ul>
+          </div>
+          <div class="col-md-3">
+              <h5>About Us</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Careers</a></li>
+              </ul>
+          </div>
+          <div class="col-md-3">
+              <h5>Destinations</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#">Countries</a></li>
+                  <li><a href="#">Cities</a></li>
+              </ul>
+          </div>
+          <div class="col-md-3">
+              <h5>Partner With Us</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#">Properties</a></li>
+                  <li><a href="#">Affiliates</a></li>
+              </ul>
+              <ul class="list-unstyled">
+                  <li>No. 050, Havelock Town, Colombo 05, Sri Lanka</li>
+                  <li>+94 112 875 965</li>
+                  <li>+94 115 879 568</li>
+              </ul>
+          </div>
+      </div>
+  </div>
+  </footer>
+  <footer class="footer-end">
+      <div class="container">
+          <div class="row mt-3">
+              <div class="col-12">
+                  <p>&copy; 2020-SLIIT WEB DEVELOPMENT - All rights reserved</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+           
+               
+<script src="
+    https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js
+    ">
+  </script>
+  <script src="js/otherstyle.js"></script>
+</body>
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <style>
+ .navbar-brand
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: tomato;
+}
+.navbar {
+  width: 100%;
+}
+.custome-home-link
+{
+    color: tomato;
+}
+.navbar-dark
+{
+  background-color: black;
+}
+.navbar-dark .navbar-nav .nav-link.active {
+  color: tomato !important;
+  font-weight: bold;
+}
+
+.protofolio-header
+{
+    color: tomato;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.protofolio-subheader
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card img {
+    object-fit: cover;
+    height: 200px;
+}
+.card-text
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.card
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.card-title
+{
+    color: tomato;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-upper {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(7, 7, 58);
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-upper a {
+  text-decoration: none; 
+  color: white;
+}
+
+.footer-upper a:hover {
+  text-decoration: underline;
+}
+
+.footer-upper ul {
+  padding-left: 0; 
+}
+
+.footer-upper .list-unstyled li {
+  margin-bottom: 10px;
+}
+
+.footer-end {
+  width: 100%;
+  box-sizing: border-box;
+  color: white;
+  background-color: black;
+  padding: 20px 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-end .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer-end p {
+  margin: 0;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+   <!-- header part-->
+<div class="container-fluid p-0">
+  <header class="row">
+      <div class="col-md-12">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+              <div class="container-fluid">
+                  <a class="navbar-brand" href="#">JAY TOURS</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                      <ul class="navbar-nav mb-2 mb-lg-0">
+                          <li class="nav-item">
+                              <a id="homeLink" class="nav-link" href="index.html">HOME</a>
+                          </li>
+                          <li class="nav-item">
+                              <a id="aboutLink" class="nav-link" href="about.html">ABOUT</a>
+                          </li>
+                          <li class="nav-item">
+                              <a id="servicesLink" class="nav-link" href="services.html">SERVICES</a>
+                          </li>
+                          <li class="nav-item">
+                              <a id="testimonialsLink" class="nav-link" href="Testimonials.html">TESTIMONIALS</a>
+                          </li>
+                          <li class="nav-item">
+                              <a id="portfolioLink" class="nav-link" href="Portfolio.html">PORTFOLIO</a>
+                          </li>
+                          <li class="nav-item">
+                              <a id="contactLink" class="nav-link" href="#footer">CONTACTS</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+      </div>
+  </header>
+</div>
+    <!--portfolio-->
+    <section class="portfolio py-5">
+        <div class="container">
+            <h1 class=" protofolio-header text-center">OUR PORTFOLIO</h1>
+            <p class=" protofolio-subheader text-center">Explore some of the amazing destinations we have covered.</p>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="images/portfolio/paris.jpg" class="card-img-top" alt="Destination 1">
+                        <div class="card-body text-center">
+                            <h5 class="card-title"> Paris, France</h5>
+                            <p class="card-text"> Discover the charm of the City of Lights, with its iconic Eiffel Tower, world-class art museums, and romantic ambiance. Paris is a must-visit for lovers of history and culture.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="images/portfolio/japan.jpg" class="card-img-top" alt="Destination 2">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Kyoto, Japan</h5>
+                            <p class="card-text">Step back in time in Kyoto, Japan's ancient capital, known for its classical Buddhist temples, stunning gardens, imperial palaces, and traditional wooden houses.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <img src="images/portfolio/southafrica.jpg" class="card-img-top" alt="Destination 3">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Cape Town, South Africa</h5>
+                            <p class="card-text">Experience the breathtaking landscapes of Cape Town, from the iconic Table Mountain to the beautiful beaches and vibrant waterfront, offering a mix of nature and culture.</p>
+                             </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </section>
+    <!--footer section-->
+<footer class="footer-upper mt-auto py-3" id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h5>Help</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>About Us</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>Destinations</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Countries</a></li>
+                    <li><a href="#">Cities</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5>Partner With Us</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Properties</a></li>
+                    <li><a href="#">Affiliates</a></li>
+                </ul>
+                <ul class="list-unstyled">
+                    <li>No. 050, Havelock Town, Colombo 05, Sri Lanka</li>
+                    <li>+94 112 875 965</li>
+                    <li>+94 115 879 568</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <footer class="footer-end">
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col-12">
+                    <p>&copy; 2020-SLIIT WEB DEVELOPMENT - All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="
+    https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js
+    ">
+  </script>
+  <script src="js/otherstyle.js"></script>
+
+</body>
+</html>
